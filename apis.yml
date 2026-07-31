@@ -1,8 +1,27 @@
 aid: mylaurel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mylaurel.png
 name: myLaurel
-description: 'myLaurel is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  myLaurel is a New York-based healthcare company delivering acute and
+  transitional care in patients' homes. Its hybrid model pairs hands-on clinical
+  teams with virtual technology support to prevent unnecessary hospitalizations,
+  free critical hospital bed space, improve patient outcomes, and lower the total
+  cost of care for both health systems and health plans. Reported results include
+  a 49% reduction in 30-day readmissions, an average 1.5-day length-of-stay
+  reduction, a 97 Net Promoter Score, and 3:1+ ROI within 90 days. myLaurel is a
+  portfolio company of GV (Google Ventures). This profile has been enriched from
+  the company's public web surface; it currently exposes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/mylaurel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Home Health
+- Acute Care
+- Transitional Care
+- Digital Health
+- Value-Based Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.mylaurelhealth.com
+- type: Blog
+  url: https://www.mylaurelhealth.com/blog
+- type: Support
+  url: https://www.mylaurelhealth.com/contact
+- type: TermsOfService
+  url: https://www.mylaurelhealth.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.mylaurelhealth.com/privacy-policy
+- type: TrustCenter
+  url: https://trust.mylaurelhealth.com/
+- type: DomainSecurity
+  url: security/mylaurel-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
